@@ -16,11 +16,13 @@ const App = () => {
   }
   return (
     <div className="flex">
+      
       <h1>Hello {fullName} </h1>
       <div className="colom">
       <input type="text" placeholder="enter your name" onChange={inputEvent} value={name} />
       <button onClick={onSubmit}>click me</button>
       </div>
+      
     </div>
   );
 };
